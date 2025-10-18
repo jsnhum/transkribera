@@ -1,0 +1,18 @@
+# Transkriptionsassistent för Manuskript - Requirements
+# Python 3.10+
+
+# Web Application Framework
+streamlit>=1.28.0
+
+# AI Model APIs
+anthropic>=0.18.0        # Claude Sonnet 4.5 API
+google-genai>=0.3.0      # Gemini 2.5 Pro API
+
+# Image Processing
+pillow>=10.0.0           # PIL for image handling and conversion
+
+# Data Handling
+pandas>=2.0.0            # CSV export for bulk transcription
+
+# Note: All dependencies are compatible with Python 3.10+
+# Tested with Python 3.10, 3.11, and 3.12
