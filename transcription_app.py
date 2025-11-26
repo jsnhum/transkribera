@@ -426,7 +426,7 @@ with st.sidebar:
             value=st.session_state.gemini_api_key,
             help="Din API-nyckel från https://aistudio.google.com/apikey"
         )
-        st.session_state.gemini_api_key = api_key_input
+        st.session_state.gemini_api_key = api_key_input.strip()
         
         if not st.session_state.gemini_api_key:
             st.warning("⚠️ Vänligen ange din Google AI API-nyckel för att använda Gemini.")
